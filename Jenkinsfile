@@ -4,7 +4,7 @@ pipeline {
     environment {
         // name of the image without tag
         dockerRepo = "siddu-143/password-manager-repo"
-        dockerCredentials = 'docker_hub'
+        dockerCredentials = '5e8a7261-1508-4c88-82bd-8faff92d90d2'
         dockerImageVersioned = ""
         dockerImageLatest = ""
     }
