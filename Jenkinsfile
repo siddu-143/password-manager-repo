@@ -20,7 +20,7 @@ pipeline {
                  branches: [[name: 'master']],
                  userRemoteConfigs: [[
                     url: 'https://www.github.com/siddu-143/password-manager-repo.git',
-                    credentialsId: '',
+                    credentialsId: 'c9f65483-a2c6-40e6-a515-0dcfa154bd9a',
                  ]]
                 ])
             }
